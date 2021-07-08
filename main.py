@@ -3,4 +3,4 @@ def add(num1,num2):
     return sum
 
 
-print(add(10,30))    
+print(add(15,30))    
