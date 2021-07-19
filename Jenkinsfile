@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python --version'
+                sh 'python main.py'
             }
         }
         stage('Linting') { // Run pylint against your code
