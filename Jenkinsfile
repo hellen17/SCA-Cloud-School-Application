@@ -6,5 +6,12 @@ pipeline {
                 sh 'python --version'
             }
         }
+        stage('Linting') { // Run pylint against your code
+            steps {
+            script {
+                sh """pylint **/*.py"""
+        }
+      }
+    }
     }
 }
