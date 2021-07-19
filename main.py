@@ -1,6 +1,4 @@
-def add(num1,num2):
+def add(num1, num2):
     sum = num1 + num2
     return sum
-
-
-print(add(15,30))    
+print(add(15, 30))
