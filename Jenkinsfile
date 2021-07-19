@@ -9,7 +9,7 @@ pipeline {
         stage('Linting') { // Run pylint against your code
             steps {
             script {
-                sh """pylint **/*.py"""
+                sh """pylint main.py"""
         }
       }
     }
