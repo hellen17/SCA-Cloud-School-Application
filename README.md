@@ -11,7 +11,7 @@ In the Jenkinsfile I have defined 3 stages in the pipeline which are build, Lint
 
 **Build/package** - In the Jenkinsfile, I created a stage called 'build' where I execute my python file.
 
-**Deploy** - In the deploy stage one can define the steps needed to deploy their work to a server
+**Deploy** - In the deploy stage one can define the steps needed to deploy their work to a server. It is the last stage and it will only run if the previous stages executed successfully.
 
 ![pipelinejenkins](https://user-images.githubusercontent.com/42536943/126755318-8cf3063e-7f0b-489c-8a84-f19f409e3220.JPG)
 
