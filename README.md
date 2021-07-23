@@ -1,7 +1,7 @@
 # SCA-Cloud-School-Application
 Technical assesment for SCA Cohort 2 Cloud Bootcamp application
 
-Involves deploying an instance from the Azure Cloud Provider and running jenkins server on it while integrating my python application via github repository.
+Involves deploying an instance from the Azure Cloud Provider and running Jenkins server on it while integrating my python application via github repository.
 
 In the Jenkinsfile I have defined 3 stages in the pipeline which are build, Linting and deploy
 
